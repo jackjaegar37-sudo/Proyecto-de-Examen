@@ -1,0 +1,124 @@
+/* Estilos generales */
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #fff5f8;
+}
+
+/* Encabezado */
+header{
+    background-color: #ff85a2;
+    padding: 15px;
+}
+
+.logo{
+    color: white;
+    margin: 0;
+}
+
+nav{
+    margin-top: 10px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+/* Título principal */
+#Home{
+    text-align: center;
+    padding: 50px;
+    background-color: #ffd6e0;
+}
+
+#Home h1{
+    color: #c2185b;
+}
+
+/* Sección Petaluxy */
+#Petaluxy{
+    padding: 30px;
+    text-align: center;
+}
+
+#Petaluxy h2{
+    color: #c2185b;
+}
+
+/* Catálogo de productos */
+.container-items{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.item{
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.2);
+}
+
+.item img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.Info-product{
+    padding: 15px;
+    text-align: center;
+}
+
+.Info-product h3{
+    color: #c2185b;
+}
+
+.price{
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+}
+
+button{
+    background-color: #ff85a2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #e91e63;
+}
+
+/* Características */
+#caracteristicas{
+    background-color: #ffe4ec;
+    text-align: center;
+    padding: 30px;
+}
+
+/* Final */
+#final{
+    text-align: center;
+    padding: 40px;
+}
+
+/* Footer */
+footer{
+    background-color: #c2185b;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
